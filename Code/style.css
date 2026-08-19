@@ -1,0 +1,31 @@
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Georgia, serif;
+}
+
+.subtitulo {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.imagem {
+    width: 700px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    margin-bottom: 8px;
+}
