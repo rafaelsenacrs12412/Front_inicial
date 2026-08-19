@@ -1,31 +1,87 @@
-body {
-    margin: 20px;
-    font-family: Arial, sans-serif;
-}
+        body{
+            background-color: rgb(224, 222, 222);
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px;
+        }
 
-h1 {
-    font-size: 36px;
-    font-family: Georgia, serif;
-}
+        h1{
+            font-size: 34px;
+            line-height: 1.25;
+            color: #23334d;
+            margin-bottom: 4px;
+            padding-bottom: 16px;
+            border-bottom: 3px, solid rgb(133, 231, 186);
+        }
 
-.subtitulo {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
+        h2{
+            font-size: 24px;
+            line-height: 1.7;
+            color: #23334d;
+            margin-top: 48px;
+            padding-left: 14px;
+            border-left: 5px, solid rgb(133, 231, 186);
+        }
 
-.imagem {
-    width: 700px;
-}
+        p{
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
 
-h2 {
-    font-size: 28px;
-    margin-top: 30px;
-}
+        strong{
+            color: #23334d;
+        }
 
-p {
-    font-size: 16px;
-}
+        em{
+            color: #3d5375;
+        }
 
-li {
-    margin-bottom: 8px;
-}
+        a{
+            color:rgba(4, 45, 160, 0.87);
+            text-decoration: none
+        }
+
+        a:hover{
+            color: rgb(223, 89, 12);
+            text-decoration: underline
+
+        }
+
+        ul, ol{
+            padding: 24px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        li{
+            margin-bottom: 8px;
+        }
+
+        ul ul{
+            margin-top: 8px;
+            color:#77787a
+        }
+
+        blockquote{
+            margin-left: 0;
+            margin-right: 0;
+            padding: 16px 20px;
+            background-color: rgb(207, 203, 203);
+            border-left: 5px solid rgb(204, 146, 21);
+            font-style: italic;
+            color:#23334d
+        }
+
+        img{
+            max-width: 100%;
+            border: 1px solid rgb(231, 159, 219);
+            border-radius: 6px;
+        }
+
+        figure{
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 28px;
+            margin-bottom: 28px;
+        }
+
